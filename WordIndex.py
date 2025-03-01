@@ -16,7 +16,7 @@ def main():
       w = w.lower()
       w = w.replace(",", "")
       w = w.replace(".", "")
-      w = w.replace("!" , "")
+      w = w.replace("!", "")
       #print(w)
 
       if w in words:
